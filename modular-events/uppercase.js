@@ -14,8 +14,6 @@ function convertUppercase(file, data){
     let newText = Buffer.from(text);
     events.emit('uppercase log', newText.toString());
     events.emit('save', file, newText);
-  } else {
-    events.emit('error', error);
   }
 }
 
