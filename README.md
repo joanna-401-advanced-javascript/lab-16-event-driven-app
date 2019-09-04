@@ -2,45 +2,38 @@
 
 ## Event-Driven App
 
-### Author: Student/Group Name
+### Author: Joanna Arroyo
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [submission PR](https://github.com/joanna-401-advanced-javascript/lab-16-event-driven-app/pull/1)
+* [travis](https://travis-ci.com/joanna-401-advanced-javascript/lab-16-event-driven-app)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [jsdoc](https://joanna-lab-16.herokuapp.com/docs)
+* [fs-extra docs](https://github.com/jprichardson/node-fs-extra/tree/e3d1ab855a17a223e7e8be89d100a5d0ebbdf98c)
 
 ### Modules
-#### `modulename.js`
+#### `app.js`
+#### `events.js`
+#### `logger.js`
+#### `readFile.js`
+#### `uppercase.js`
+#### `writeFile.js`
+
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `event() -> new event`
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `writeFile(text) -> object`
 
 ### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
 
 #### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
+* `node app.js <file name>`
   
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
+* Unit test: `npm run test`
+* Lint test: `npm run lint`
 
 #### UML
-Link to an image of the UML for your application and response to events
+![UML Image](uml.jpg)

@@ -1,17 +1,14 @@
 'use strict';
 
-const fs = require('fs');
+const events = require('./modular-events/events');
 
-const alterFile = (file) => {
-  fs.readFile( file, (err, data) => {
-    if(err) { throw err; }
-    let text = data.toString().toUpperCase();
-    fs.writeFile( file, Buffer.from(text), (err, data) => {
-      if(err) { throw err; }
-      console.log(`${file} saved`);
-    });
-  });
-};
+const readFile = require('./modular-events/readFile');
+const convertUppercase = require('./modular-events/uppercase');
+const writeFile = require('./modular-events/writeFile');
+
+events.on('read', readFile);
+events.on('convert', convertUppercase);
+events.on('save', writeFile);
 
 let file = process.argv.slice(2).shift();
-alterFile(file);
+events.emit('read', file);
