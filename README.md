@@ -2,18 +2,17 @@
 
 ## Event-Driven App
 
-### Author: Student/Group Name
+### Author: Joanna Arroyo
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/joanna-401-advanced-javascript/lab-16-event-driven-app/pull/1)
 * [travis](http://xyz.com)
 * [back-end](http://xyz.com) (when applicable)
 * [front-end](http://xyz.com) (when applicable)
 
 #### Documentation
-* [api docs](http://xyz.com) (API servers)
 * [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [fs-extra docs](https://github.com/jprichardson/node-fs-extra/tree/e3d1ab855a17a223e7e8be89d100a5d0ebbdf98c)
 
 ### Modules
 #### `modulename.js`
