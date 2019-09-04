@@ -9,7 +9,7 @@
 * [travis](https://travis-ci.com/joanna-401-advanced-javascript/lab-16-event-driven-app)
 
 #### Documentation
-* [jsdoc](http://xyz.com) (Server assignments)
+* [jsdoc](https://joanna-lab-16.herokuapp.com/docs)
 * [fs-extra docs](https://github.com/jprichardson/node-fs-extra/tree/e3d1ab855a17a223e7e8be89d100a5d0ebbdf98c)
 
 ### Modules
