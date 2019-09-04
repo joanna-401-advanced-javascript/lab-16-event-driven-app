@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "eslint": "^6.3.0",
     "fs-extra": "^8.1.0",
     "jest": "^24.8.0",
     "jsdoc": "^3.6.3",
