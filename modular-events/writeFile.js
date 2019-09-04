@@ -4,7 +4,11 @@ const fsExtra = require('fs-extra');
 const events = require('./events');
 require('./logger');
 
-
+/**
+ * Handles writing new data into the file
+ * @param file
+ * @param newText
+ */
 function writeFile(file, newText){
   return fsExtra.writeFile(file, newText)
     .then(() => {

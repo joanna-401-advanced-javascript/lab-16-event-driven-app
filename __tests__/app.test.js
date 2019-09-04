@@ -1,14 +1,15 @@
 'use strict';
 
-const app = require('../app');
-// const events = require('../modular-events/events');
+const readFile = require('../modular-events/readFile');
+const convertUppercase = require('../modular-events/uppercase');
+const writeFile = require('../modular-events/writeFile');
 require('../modular-events/logger');
 
 describe('Test event handlers', () => {
   test('It can read a file', () => {
     let file = 'test string';
 
-    return app.readFile(file)
+    return readFile(file)
       .then(data => {
         expect(data).toEqual('test string');
       })

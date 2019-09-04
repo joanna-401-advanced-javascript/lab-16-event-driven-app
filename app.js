@@ -1,8 +1,6 @@
 'use strict';
 
-// const fsExtra = require('fs-extra');
 const events = require('./modular-events/events');
-// require('./modular-events/logger');
 
 const readFile = require('./modular-events/readFile');
 const convertUppercase = require('./modular-events/uppercase');
